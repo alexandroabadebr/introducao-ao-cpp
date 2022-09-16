@@ -43,6 +43,28 @@ if (media >= 5){
     cout << "Nota final B\n";
   } else {
     cout << "Nota final A\n";
+	}
+
+	// Operadores Lógicos - E ( && ) / OU ( || ) / NÃO ( ! ) 
+	float freq;
+	cout << "Qual a frequência do aluno\n";
+	cin >> freq;
+
+	// if (media >= 5 && freq >= 75){
+	//	cout << "Aluno aprovado!\n";
+	// } else {
+	//	cout << "Aluno reprovado!\n";
+	// }
+	
+
+		if (media < 5 || freq <= 75){
+			cout << "Aluno reprovado!\n";
+		} else{
+			cout << "Aluno aprovado!\n";
+		}
+
+		// Operador Ternário
+		(media >= 5) ? cout << "Aprovado!" : cout << "Reprovado!";
 
   return 0;
 }
