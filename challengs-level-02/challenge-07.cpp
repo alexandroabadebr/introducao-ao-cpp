@@ -31,7 +31,7 @@ int main(){
   float matrizSoma[numeroDeLinhas][numeroDeColunas];
   for (int i=0; i<numeroDeLinhas; i++){
     for (int j=0; j<numeroDeColunas; j++){
-      matrizSoma[i][j] = matriz[i][j] + matriz2[i][j];
+      matrizSoma[i][j] = matriz1[i][j] + matriz2[i][j];
     }
   }
 
