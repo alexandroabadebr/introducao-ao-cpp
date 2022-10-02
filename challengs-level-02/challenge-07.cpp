@@ -1,4 +1,4 @@
-// Crie um Algoritmo em C++, em que o usuário informa a dimensão de uma matriz, e os elementos de duas matrizes [ambas com a mesma dimensão] e o Algoritmo mostra a soma entre estas duas matrizes.
+// Crie um Algoritmo em C++, em que o usuário informa a dimensão de uma matriz, e os elementos de duas matrizes (ambas com a mesma dimensão) e o Algoritmo mostra a soma entre estas duas matrizes.
 
 #include <iostream>
 
@@ -34,6 +34,8 @@ int main(){
       matrizSoma[i][j] = matriz1[i][j] + matriz2[i][j];
     }
   }
+
+  cout << "A soma entre estas duas matrizes é: \n";
 
   for (int i=0; i<numeroDeLinhas; i++){
     for (int j=0; j<numeroDeColunas; i++){
