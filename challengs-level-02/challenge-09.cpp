@@ -10,12 +10,12 @@ int main() {
 
   cout << "Qual a idade da primeira pessoa?\n";
   cin >> *idadeUm;
-  cout "Qual idade da segunda pessoa\n";
+  cout << "Qual idade da segunda pessoa?\n";
   cin >> *idadeDois;
 
   float* media = new float;
   *media = (*idadeUm + *idadeDois)/2;
-  cout << "A media das idades é: *media << endl";
+  cout << "A media das idades é: " << *media << endl;
 
   return 0;
 }
